@@ -1,0 +1,333 @@
+/**************************************** fonts********************************************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/**************************************** fonts********************************************************************************/
+
+/**************************************** HTML ********************************************************************************/
+body{
+    background-color: #ed1e79;
+    margin-top: 0;
+    margin-left: 0;   
+}
+/**************************************** HTML ********************************************************************************/
+
+/**************************************** Logo ********************************************************************************/
+.logo{
+    padding-top: 10px;
+    text-indent: 15px;
+    float: left;
+}
+    
+.ozio{
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 24pt;
+    color: #ed1e79;
+    display: flex;  
+}
+
+.studio{
+    font-family: "raleway";
+    font-weight: 100;
+    font-size: 24pt;
+    color: black;
+    text-indent: 0px;
+}
+/**************************************** Logo ********************************************************************************/
+
+/**************************************** Nav & Box ********************************************************************************/
+
+.nav-box{
+    width: 2000px;
+    height: 60px;
+    background-color: white;
+}
+
+nav{
+    text-align: center;
+    padding-top: 10px;
+    text-indent: 600px;
+    text-decoration:none;
+    font-family: "raleway";
+    font-weight: 800;
+    font-size: 12pt;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+/**************************************** Nav and Nav Box ********************************************************************************/
+
+/**************************************** Hero Image and Heading ********************************************************************************/
+
+.hero{
+    background-image: url(../img/ozio_office_bw.jpg);
+    background-size: cover;
+    width: 1800px;
+    height: 850px;
+    
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.heading-regular{
+    font-family: 'raleway';
+    font-weight: 400;
+    font-size: 100pt;
+}
+
+.heading-bold{
+    color: #ed1e79;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.heading-period{
+    color: #ed1e79;
+    font-weight: bold;
+}
+/**************************************** Hero Image and Heading ********************************************************************************/
+
+
+/**************************************** Subheading & Subdescription ********************************************************************************/
+
+.subheading{
+    font-family: "raleway";
+    font-weight: 400;
+    font-size: 40pt;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    color: white;
+}
+
+.subdesription{
+    font-family: "raleway";
+    font-weight: 400;
+    font-size: 30pt;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    kerning: 40px;
+    color: white;  
+}
+
+/**************************************** Subheading & Subdescription ********************************************************************************/
+
+/**************************************** Item Gallery ********************************************************************************/
+
+.gallery-row-1{
+   display: flex;
+   margin: auto;
+   width: 50%;
+   padding-bottom: 100px;
+}
+
+.product-1{
+    margin-right: 35px;
+}
+
+.product-2{
+    margin-right: 30px;
+}
+
+.product-3{
+    margin-right: 35px;
+}
+
+.gallery-row-2{
+    display: flex;
+    margin: auto;
+    width: 50%;
+ }
+
+.product-4{
+    margin-right: 35px;
+}
+
+.product-5{
+    margin-right: 30px;
+}
+
+.product-6{
+    margin-right: 35px;
+}
+
+.product-name{
+    font-family: "raleway";
+    font-size: 18pt;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+/**************************************************************** Item Gallery ********************************************************************************/ ********************************************************************************/
+
+/**************************************** View Button ********************************************************************************/
+.view{
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 11pt;
+    color: white; 
+    margin: auto;
+    width: 50%;
+}
+
+
+.view-button{
+    height: 39px;
+    width: 80px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    color: white;
+    margin: auto;
+    border-radius: 15px;
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 11pt;
+    color: white; 
+    
+}
+
+/**************************************** View Button ********************************************************************************/
+
+/**************************************** Second Subheading ********************************************************************************/
+.subheading-2{
+    text-align: center;
+    font-family: "raleway";
+    font-weight: 400;
+    font-size: 42pt;
+    color: white;
+}
+/************************************** Second Subheading ********************************************************************************/
+
+/**************************************** Services Heading & Services List ********************************************************************************/
+
+.services{
+    text-align: center;
+    font-family: "raleway";
+    font-weight: 400;
+    font-size: 24pt;
+    color: white;
+}
+
+
+.services-list{
+    text-align: center;
+    font-family: "raleway";
+    font-weight: 400;
+    font-size: 24pt;
+    color: white;
+    list-style-position: inside;
+}
+
+/**************************************** Services Heading & Services List ********************************************************************************/
+
+/**************************************** Call to Action and Motto ********************************************************************************/
+
+.call-to-action{
+    text-align: center;
+    font-family: "raleway";
+    font-weight: 400;
+    font-size: 42pt;
+    color: white;
+}
+
+.call-to-action-bold{
+    text-align: center;
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 42pt;
+    color: white;
+}
+
+.motto{
+    text-align: center;
+    font-family: "raleway";
+    font-weight: 400;
+    font-size: 24pt;
+    color: white;  
+}
+
+/**************************************** Call to Action and Motto ********************************************************************************/
+
+/**************************************** Email Button ********************************************************************************/
+
+.email{
+    padding-top: 5.5%;
+    text-align: center;
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 14pt;
+    color: white
+}
+
+.email-button{
+    height: 36px;
+    width: 120px;
+    border: 2px;
+    border-style: none;
+    border-color: white;
+    text-align: center;
+    color: white;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #58595b;
+}
+
+
+/**************************************** Email Button ********************************************************************************/
+
+
+/**************************************** Copyright Section ********************************************************************************/
+.copyright{
+    padding-top:  15%;;
+    text-align: center;
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 14pt;
+    color: white;  
+}
+
+
+/**************************************** Copyright Section ********************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
